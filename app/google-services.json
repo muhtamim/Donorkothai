@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "518580472540",
+    "firebase_url": "https://sdnath-d86cd.firebaseio.com",
+    "project_id": "sdnath-d86cd",
+    "storage_bucket": "sdnath-d86cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518580472540:android:9c3a1a1395feebc6",
+        "android_client_info": {
+          "package_name": "com.afinal.sdnath.sdnath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518580472540-bd4natge01he3h6j1k1jp1rt4g21cqaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.afinal.sdnath.sdnath",
+            "certificate_hash": "f7a7403c6ced2a6838cc0b118c7e3c2c4640eca1"
+          }
+        },
+        {
+          "client_id": "518580472540-3tal04vdgm2tjpod67o98f8o7j1r8pkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0M9g4fgmGoVpAJfr0iCCjHFy_BY-Y8dA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518580472540-3tal04vdgm2tjpod67o98f8o7j1r8pkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

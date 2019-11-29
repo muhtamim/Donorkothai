@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#4d0606"
+    >
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ap"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:layout_margin="10dp"
+            android:background="@drawable/semi_round"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@color/colorPrimaryDark"
+                android:text="Blood Needed"
+                android:gravity="center"
+                android:textSize="18dp"
+
+                android:textColor="@color/colorAccent"
+
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="3"
+
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_height="match_parent"
+                android:background="@drawable/semi_round"
+                >
+                <Spinner
+                    android:id="@+id/bag"
+                    android:textColor="#1cff03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/bag"
+                    android:outlineAmbientShadowColor="#ffffff"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/hospital"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/semi_round"
+            android:layout_margin="10dp"
+            android:textColor="#1cff03"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="Enter Hospital name (optional)"
+            android:gravity="center"
+            />
+
+
+        <Button
+            android:id="@+id/request"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Send Request"
+            android:background="@drawable/round_white"
+            android:backgroundTint="#975454"
+            android:drawableRight="@drawable/ic_menu_send"
+            android:padding="5dp"
+            />
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

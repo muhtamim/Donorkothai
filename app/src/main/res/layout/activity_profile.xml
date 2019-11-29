@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#480101"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/semi_round"
+            android:backgroundTint="#d7d6d6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/donor" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/half_semi_round"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Name"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:background="@drawable/half_lower_semi_round"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:hint="Name"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#413f3f"
+                android:textSize="15sp"
+                android:typeface="serif" />
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/half_semi_round"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Gender"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/half_lower_semi_round"
+                android:gravity="center"
+                android:text="Gender"
+                android:textColor="#000"
+                android:textSize="15sp">
+
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/half_semi_round"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Blood Group"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/bloodGroup"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/half_lower_semi_round"
+                android:gravity="center"
+                android:text="Blood Group"
+                android:textColor="#000"
+                android:textSize="15sp">
+
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/half_semi_round"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Age"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:background="@drawable/half_lower_semi_round"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:hint="Age"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#413f3f"
+                android:textSize="15dp"
+                android:typeface="serif" />
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/half_semi_round"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Weight (kg)"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:background="@drawable/half_lower_semi_round"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:hint="weight (kg)"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#413f3f"
+                android:textSize="15dp"
+                android:typeface="serif" />
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/half_semi_round"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Last Donate Date"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/lastDonate"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:background="@drawable/half_lower_semi_round"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:padding="10dp"
+                android:text="last Donate Date"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:typeface="serif" />
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/half_semi_round"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Phone Number"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:background="@drawable/half_lower_semi_round"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:hint="Phone number"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#413f3f"
+                android:textSize="15dp"
+                android:typeface="serif" />
+
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/half_semi_round"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Email"
+                android:textColor="#fff" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/email"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/phone"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/half_lower_semi_round"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:hint="Email"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#413f3f"
+                android:textSize="15dp"
+                android:typeface="serif" />
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/half_semi_round"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Password"
+                android:textColor="#fff"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/pass"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/email"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/half_lower_semi_round"
+                android:drawableLeft="@drawable/pass"
+                android:drawablePadding="5dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="#000000"
+                android:textColorHint="#413f3f"
+                android:textSize="15dp"
+                android:typeface="serif"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/half_semi_round"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="District and Thana"
+                android:textColor="#fff" />
+
+            <LinearLayout
+                android:id="@+id/address"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/half_lower_semi_round"
+                android:backgroundTint="#fff"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/district"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_white"
+                    android:gravity="center"
+                    android:text="District"
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/thana"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_white"
+                    android:gravity="center"
+                    android:text="Thana"
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/circle_white"
+        android:backgroundTint="#cc4f4f"
+        android:text="Edit"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

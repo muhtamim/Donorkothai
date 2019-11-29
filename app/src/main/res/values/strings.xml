@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">Donorkothai</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">Across Bangladesh, every day there remains an urgent need for all types of blood groups. Especially donors with rare blood groups such as O Negative, B Negative and A Negative are in high demand. Your timely response is essential to the supply of healthy blood for the massive daily demand we face.
+
+Your donation can save the lives of many, make a difference or simply make you feel great about your contribution to humanity. Whatever your reason, whatever your motivation we welcome you to learn more about eligibility and benefits of donating blood with a trusted organization like us.</string>
+
+
+    <string-array name="BloodGroup">
+        <item>--Select Blood Group--</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+
+    <string-array name="District">
+        <item>--Select District--</item>
+        <item>BAGERHAT</item>
+        <item>BANDARBAN</item>
+        <item>BARGUNA</item>
+        <item>BARISHAL</item>
+        <item>BHOLA</item>
+        <item>BOGRA</item>
+        <item>BORISAL</item>
+        <item>BRAHMANBARIA</item>
+        <item>CHANDPUR</item>
+        <item>CHAPAINAWABGANJ</item>
+        <item>CHITTAGONG</item>
+        <item>CHUADANGA</item>
+        <item>COMILLA</item>
+        <item>COX\'S BAZAR</item>
+        <item>DHAKA</item>
+        <item>DINAJPUR</item>
+        <item>FARIDPUR</item>
+        <item>FENI</item>
+        <item>GAIBANDHA</item>
+        <item>GAZIPUR</item>
+        <item>GOPALGANJ</item>
+        <item>HABIGANJ</item>
+        <item>JAMALPUR</item>
+        <item>JESSORE</item>
+        <item>JHALOKATI</item>
+        <item>JHENAIDAH</item>
+        <item>JOYPURHAT</item>
+        <item>KHAGRACHHARI</item>
+        <item>KHULNA</item>
+        <item>KISHOREGANJ</item>
+        <item>KURIGRAM</item>
+        <item>KUSTIA</item>
+        <item>LAKSHMIPUR</item>
+        <item>LALMONIRHAT</item>
+        <item>MADARIPUR</item>
+        <item>MEHERPUR</item>
+        <item>MOULIVIBAZAR</item>
+        <item>MUNSHIGANJ</item>
+        <item>MYMENSINGH</item>
+        <item>NAOGAON</item>
+        <item>NARAIL</item>
+        <item>NARAYANGANJ</item>
+        <item>NARSINGDI</item>
+        <item>NATORE</item>
+        <item>NAWABGANJ</item>
+        <item>NETRAKONA</item>
+        <item>NILPHAMARI</item>
+        <item>NOAKHALI</item>
+        <item>PABNA</item>
+        <item>PANCHAGARH</item>
+        <item>PATUAKHALI</item>
+        <item>PIROJPUR</item>
+        <item>RAJBARI</item>
+        <item>RAJSHAHI</item>
+        <item>RANGAMATI</item>
+        <item>RANGPUR</item>
+        <item>SATKHIRA</item>
+        <item>SHARIATPUR</item>
+        <item>SHERPUR</item>
+        <item>SIRAJGANJ</item>
+        <item>SUNAMGANJ</item>
+        <item>SYLHET</item>
+        <item>TANGAIL</item>
+        <item>THAKURGAON</item>
+
+
+    </string-array>
+
+
+    <string-array name="DHAKA">
+        <item>--Select Thana--</item>
+        <item>ADABOR</item>
+        <item>AIRPORT</item>
+        <item>BADDA</item>
+        <item>BANASREE</item>
+        <item>BANGSHAL</item>
+        <item>BONANI</item>
+        <item>CANTONMENT</item>
+        <item>CHAWKBAZAR</item>
+        <item>DEMRA</item>
+        <item>DHANMONDI</item>
+        <item>FARMGATE</item>
+        <item>GENDARIA</item>
+        <item>GOPIBAG</item>
+        <item>GULSHAN</item>
+        <item>HAJARIBAG</item>
+        <item>JATRABARI</item>
+        <item>KAFRUL</item>
+        <item>KAJIPARA</item>
+        <item>KHILGAON</item>
+        <item>KOTOWALI</item>
+        <item>KOLLANPUR</item>
+        <item>LALBAG</item>
+        <item>MIRPUR</item>
+        <item>MOHAMMADPUR</item>
+        <item>MOTIZHEEL</item>
+        <item>NIKETON</item>
+        <item>NIKUNJO</item>
+        <item>NEWMARKET</item>
+        <item>OLDDHAKA</item>
+        <item>PALLABI</item>
+        <item>POLTON</item>
+        <item>RAMPURA</item>
+        <item>SAVAR</item>
+        <item>SHAHJATPUR</item>
+        <item>SHAHJAHANPUR</item>
+        <item>SHEREBANGLA</item>
+        <item>SHEWRAPARA</item>
+        <item>SOBUJBAG</item>
+        <item>SUTRAPUR</item>
+        <item>TEJGAON</item>
+        <item>TONGI</item>
+        <item>UTTARA</item>
+        <item>VASHANTEK</item>
+
+    </string-array>
+
+
+    <string-array name="CHITTAGONG">
+
+        <item>--Select Thana--</item>
+        <item>AGARBAD</item>
+        <item>ANDERKILLA</item>
+        <item>ANOWARA</item>
+        <item>BANDAR</item>
+        <item>BANSHKHALI</item>
+        <item>BOALKHALI</item>
+        <item>BOHODDARHAT</item>
+        <item>CHAKTAI</item>
+        <item>CHANDANAISH</item>
+        <item>CHAWKBAZAR</item>
+        <item>COLONELHUT</item>
+        <item>DEWANHAT</item>
+        <item>FATIKCHARI</item>
+        <item>FOTEHABAD</item>
+        <item>GEC</item>
+        <item>HATHAJARI</item>
+        <item>HALISOHOR</item>
+        <item>KALAMIYABAZAR</item>
+        <item>KALURGHAT</item>
+        <item>KHULSHI</item>
+        <item>LOHAGARA</item>
+        <item>MIRSHARAI</item>
+        <item>MURADPUR</item>
+        <item>NEWMARKET</item>
+        <item>OXYGEN</item>
+        <item>PAHARTOLI</item>
+        <item>PANCHLAISH</item>
+        <item>PATIA</item>
+        <item>PATORGHATA</item>
+        <item>POTENGA</item>
+        <item>RANGUNIA</item>
+        <item>RAOZAN</item>
+        <item>SANDWIP</item>
+        <item>SATKANI</item>
+        <item>SITAKUNDA</item>
+        <item>2NOGATE</item>
+
+    </string-array>
+
+    <string-array name="SYLHET">
+
+        <item>--Select Thana--</item>
+        <item>Amkuna</item>
+        <item>Balaganj Union</item>
+        <item>Balaganj Upazila</item>
+        <item>Beanibazar Upazila</item>
+        <item>Bishwanath Upazila</item>
+        <item>Companiganj Upazila</item>
+        <item>Dakshin Surma Upazila</item>
+        <item>Dayamir Union</item>
+        <item>Fenchuganj Upazila</item>
+        <item>Golapganj Upazila</item>
+        <item>Gowainghat Upazila</item>
+        <item>Jaintiapur Upazila</item>
+        <item>Kanaighat Upazila</item>
+        <item>Osmani Nagar Upazila</item>
+        <item>Sylhet Sadar Upazila</item>
+        <item>Zakiganj Upazila</item>
+
+    </string-array>
+
+
+    <string-array name="EMPTY">
+
+    </string-array>
+
+    <string-array name="bag">
+        <item>1 Bag</item>
+        <item>2 Bags</item>
+        <item>3 Bags</item>
+        <item>4 Bags</item>
+        <item>5 Bags</item>
+        <item>6 Bags</item>
+        <item>7 Bags</item>
+        <item>8 Bags</item>
+        <item>9 Bags</item>
+        <item>10 Bags</item>
+    </string-array>
+
+
+    <string name="title_activity_notification">Notification</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
